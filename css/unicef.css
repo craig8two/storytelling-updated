@@ -6,6 +6,9 @@ body {
 .container {
 	max-width: 960px;
 }
+section {
+  width: 100%;
+}
 /* .row {
   margin-left: 0x;
   margin-right: 0px;
@@ -773,7 +776,7 @@ header {
 .investments-stats-middle-4,
 .investments-stats-middle-5,
 .investments-stats-middle-6 {
-  width: 100%;
+  /* width: 100%; */
 }
 .investments-stats-top {
 
