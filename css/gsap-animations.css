@@ -1,0 +1,169 @@
+/* Header */
+.orange-white-text-1 {
+    opacity: 0;
+}
+
+.white-on-blue-text-1 {
+    opacity: 0;
+}
+
+/* Numbers */
+#number-img-1,
+#number-img-2,
+#number-img-3 {
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+/* Maps */
+#pinned-section-1 {
+    height: 150vh;
+    margin-bottom: 1050vh;
+ 
+
+}
+
+#maps-section {
+    position: relative;
+    height: 394px;
+    
+}
+
+#map-1,
+#map-2,
+#map-3 {
+    position: absolute;
+    opacity: 0;
+}
+
+#map-1 {
+    opacity: 1;
+}
+
+/* Slider1 */
+
+.stat-slides-container {
+    height:70vh !important;
+}
+#slides-container-1 {
+    position: relative;
+    height: 60vh ;
+    overflow: hidden;
+    background-color: #eb6209;
+}
+
+#stat-1, #stat-2, #stat-3, #stat-4 {
+     position: absolute;
+     width: 100%;
+     max-width: 1800px;
+     height: 100%;
+     left: 50%;
+     transform: translateX(-50%);
+     opacity: 0
+}
+
+#stat-1 {
+    opacity: 1
+}
+
+.stat-img {
+    height: 100%
+}
+
+.stat-info {
+    opacity: 0
+}
+
+.stat-info:nth-child(1) {
+    opacity: 1;
+}
+.orange-stats-row {
+    height:100vh;
+    margin-bottom: 700vh;
+    overflow: hidden;
+    margin-right: auto;
+    width: 100%;
+}
+
+.diet-chart-row {
+    height: 60vh
+}
+
+
+/* SECOND SLIDER */
+
+#slider-2{
+    height: 100vh;
+    display:flex;
+    margin-bottom: 400vh;
+    overflow: hidden;
+}
+#slider-2-text{
+    height: fit-content
+}
+#slider-2-image-container{
+    position: relative;
+    height: 75vh;
+    overflow: hidden;
+}
+
+#slider-2-image1, #slider-2-image2, #slider-2-image3, #slider-2-image4 {
+    position: absolute;
+    height: 75vh;
+    overflow: hidden;
+    top: 0;
+    opacity: 0
+}
+
+#slider-2-image1{
+    opacity: 1
+}
+
+
+/* Lifecycle */
+
+#lifecycle-title1, #lifecycle-title2 {
+    opacity: 0;
+}
+
+
+/* sliding texts */
+
+#slide-text-1 {
+    display: none
+}
+
+
+/* pinned-maps */
+
+#pinned-maps {
+    height: 100vh;
+    overflow: hidden !important;
+    margin-bottom: 200vh;
+}
+
+#maps-container {
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%
+}
+
+
+#pinned-map-1, #pinned-map-2 {
+    width: 100%;
+    position: absolute;
+    bottom: 20%
+}
+
+#pinned-map-2, #bar-1-1, #bar-1-2 {
+    opacity: 0;
+}
+
+
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
